@@ -29,7 +29,7 @@ import { PageHead } from './PageHead'
 import { PageAside } from './PageAside'
 import { Footer } from './Footer'
 import { NotionPageHeader } from './NotionPageHeader'
-import { GitHubShareButton } from './GitHubShareButton'
+import { Slide } from './Slide'
 
 import styles from './styles.module.css'
 
@@ -286,7 +286,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
-      <GitHubShareButton />
+      <Slide />
     </>
   )
 }
